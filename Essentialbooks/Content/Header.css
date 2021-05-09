@@ -1,0 +1,29 @@
+﻿body {
+}
+
+
+
+.cHeader {
+    background-color: #5B969E;
+    max-height: 10%;
+}
+.cHeader > .container > .navbar-collapse > ul > li > a, div > #profile > li > a {
+        color: white;
+    }
+
+    .cHeader > .container > .navbar-collapse > ul > li > a:hover, div > #profile > li > a:hover {
+        color: #EC6F60;
+    }
+
+
+
+
+div.image {
+    content: url('../Images/loggatwg.jpg');
+    max-height: 8vh;
+    width: auto;
+
+    position: absolute;
+    top: 0vh;
+    left: 1vh;
+}
